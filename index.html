@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Bootstrap propio -->
+    <link rel="stylesheet" href="./css/propio.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Michelito</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto px-10">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactame.html">Contactame</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certificados">Certificaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- CONTENEDORES -->
+
+    <div class="container centrado">
+        <div class="row my-4">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-warning display-1"><b>Quien soy?</b></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6 ">
+                        <img src="imagenes/20201215_093036.png" alt="Foto mia" width="300vh" class="main__img img-fluid my-3">
+                    </div>
+                    <div class="col-xs-12 col-lg-6 align-self-center">
+                        <p class="main__text my-3 centrado"><b>Soy Eddy Cervantes estudio Diseño y Desarrollo Web y soy tecnológicamente hábil, que ofrece experiencia con muchas plataformas de medios sociales, programas de tecnología de oficina y habilidades informáticas avanzadas. Aporta una actitud positiva y la voluntad y motivación para aprender nuevos programas.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col">
+                <div class="row">
+                    <div class="col text-warning">
+                        <h1 class="display-1" id="certificados"><b>Certificaciones</b></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6 align-self-center">
+                        <h3 class="sidebar__subtitulo1 text-black-50">instituto Idat</h3>
+                        <img src="imagenes/CERCURDIP-Cervantes-11_10_2022-121526-page-001.jpg" alt="Certificado Idat" class="sidebar__img1 img-fluid my-3" width="70%">
+                    </div>
+                    <div class="col-xs-12 col-lg-6 align-self-center">
+                        <h3 class="sidebar_subtitulo2 text-black-50">Conecta Empleos</h3>
+                        <img src="imagenes/FT PE - Certificado-page-001.jpg" alt="Certificado Conecta Empleos" class="sidebar__img2 img-fluid my-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col">
+                <div class="row">
+                    <div class="col text-warning">
+                        <h1 class="hobbies__titulo display-1" id="hobbies"><b>Hobbies</b></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6">
+                        <h3 class="text-black-50">Ukelele</h3>
+                        <video width="75%" controls autoplay muted class="hobbies__ukelele-video">
+                            <source src="videos/ukelele.mp4" type="video/mp4">
+                            </video>
+                            <p class="hobbies__ukelele-text my-3"><b>Es una los pasatiempos que me ayuda a bajar los niveles de estrés y mejora mis movimientos en los dedos, ya que como programador tendemos a escribir código entre error y aprendizajes.</b></p>
+                    </div>
+                    <div class="col-xs-12 col-lg-6 align-self-center">
+                        <h3 class="text-black-50">Ejercicios</h3>
+                        <img src="imagenes/ejercicios01.jpg" alt="Cargando pesas" class="hobbies__ejercicios-img img-fluid mx-4" width="80%">
+                        <p class="hobbies__ejercicios-text my-3"><b>Comencé con mi rutina de estiramiento y con el tiempo logré mejorar mi rendimiento físico, quizá no sea un experto, ya que solo lo hago para relajar mis músculos, pero es muy recomendable en especial para los que programamos.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="footer__name">Eddy Michelito Cervantes</h5>
+                </div>
+                <div class="col-12">
+                    <p class="footer__text my-0">Este blog personal es un proyecto que sirve como desahogo del día a día. Todo esto es fruto de la constante práctica, prueba y error, de igual manera buscaré mejorar cada vez que se pueda.</p>
+                    <p class="footer__copyright my-0">Copyright &copy; 2022 Todos los derechos reservados por <br><a href="#">Eddy Cervantes</a></p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

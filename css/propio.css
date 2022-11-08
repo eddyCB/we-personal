@@ -1,0 +1,18 @@
+
+.centrado{
+    text-align: center;
+    vertical-align: center;
+}
+
+.main__img{
+    box-shadow: 5px 5px 10px;
+}
+.sidebar__img1{
+    box-shadow: 5px 5px 10px;
+}
+.sidebar__img2{
+    box-shadow: 5px 5px 10px;
+}
+.hobbies__ejercicios-img{
+    box-shadow: 5px 5px 10px;
+}
